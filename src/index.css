@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'DS-DIGIB';
+    src: url('./assets/fonts/DS-DIGIB.ttf') 
+      format('truetype');
+  }
+
+html {
+    font-family: 'DS-DIGIB';
+}
+
+ {
+    width: 100%;
+    height: 100%;
+} 
