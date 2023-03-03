@@ -5,6 +5,7 @@ import Card from './components/Card/Card';
 import './index.css';
 import { getRandomNumber as random } from './utils/getRandomNumber';
 import Button from './components/Button/Button';
+import Autor from './components/Autor/Autor';
 
 const App = () => {
   const [indexGalaxy, setIndexGalaxy] = useState(random(0, phrase.length - 1));
@@ -35,6 +36,7 @@ const App = () => {
         <h1>INFOGALAX</h1>
         <Card galaxy={phrase[indexGalaxy]} />
         <Button random={changeGalaxy} />
+        <Autor galaxy={phrase[indexGalaxy]} />
       </div>
     </div>
   );
